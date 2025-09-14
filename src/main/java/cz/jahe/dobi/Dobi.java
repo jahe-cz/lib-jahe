@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * 
+ * Utility class of static helper methods for Dobi factory.
  * 
  * @author Radek Pinc (pincr) {@literal <radek.pinc@softinel.cz>}
  */
