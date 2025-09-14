@@ -4,7 +4,7 @@ package cz.jahe.context.bean;
 import cz.jahe.Jahe;
 
 /**
- * 
+ * Default generic bean factory.
  * 
  * @author Radek Pinc (pincr) {@literal <radek.pinc@softinel.cz>}
  */
