@@ -2,7 +2,7 @@
 package cz.jahe.args;
 
 /**
- * 
+ * Helper class for process command line arguments.
  * 
  * @author Radek Pinc (pincr) {@literal <radek.pinc@softinel.cz>}
  */
