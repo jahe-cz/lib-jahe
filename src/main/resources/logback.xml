@@ -6,7 +6,6 @@
 	
 	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
 		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
-			<!-- detailní vývojový pattern: čas, level, thread, MDC (traceId,userId), logger, message, stacktrace -->
 			<pattern>%d{HH:mm:ss.SSS} %-5level [%thread][%X{traceId:-}|%X{userId:-}][%logger{36}] %msg%n%ex{full}</pattern>
 			<immediateFlush>true</immediateFlush>
 		</encoder>
