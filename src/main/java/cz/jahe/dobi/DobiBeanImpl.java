@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 
+ * Prototype implementation for DOBI beans.
  * 
  * @author Radek Pinc (pincr) {@literal <radek.pinc@softinel.cz>}
  */
