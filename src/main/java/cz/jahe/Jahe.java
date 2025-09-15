@@ -28,7 +28,7 @@ public class Jahe {
 	public static <T> boolean isEmpty(final T[] array) {
 		return array == null || array.length == 0;
 	}
-
+	
 	public static <T> boolean notEmpty(final T[] array) {
 		return ! isEmpty(array);
 	}
@@ -78,6 +78,46 @@ public class Jahe {
 		return new LinkedHashMap<K, V>();
 	}
 	
+	public static <K, V> Map<K, V> map(final K k1, final V v1) {
+		final Map<K, V> result = new LinkedHashMap<K, V>();
+		result.put(k1, v1);
+		return result;
+	}
+	
+	public static <K, V> Map<K, V> map(final K k1, final V v1, final K k2, final V v2) {
+		final Map<K, V> result = new LinkedHashMap<K, V>();
+		result.put(k1, v1);
+		result.put(k2, v2);
+		return result;
+	}
+	
+	public static <K, V> Map<K, V> map(final K k1, final V v1, final K k2, final V v2, final K k3, final V v3) {
+		final Map<K, V> result = new LinkedHashMap<K, V>();
+		result.put(k1, v1);
+		result.put(k2, v2);
+		result.put(k3, v3);
+		return result;
+	}
+	
+	public static <K, V> Map<K, V> map(final K k1, final V v1, final K k2, final V v2, final K k3, final V v3, final K k4, final V v4) {
+		final Map<K, V> result = new LinkedHashMap<K, V>();
+		result.put(k1, v1);
+		result.put(k2, v2);
+		result.put(k3, v3);
+		result.put(k4, v4);
+		return result;
+	}
+	
+	public static <K, V> Map<K, V> map(final K k1, final V v1, final K k2, final V v2, final K k3, final V v3, final K k4, final V v4, final K k5, final V v5) {
+		final Map<K, V> result = new LinkedHashMap<K, V>();
+		result.put(k1, v1);
+		result.put(k2, v2);
+		result.put(k3, v3);
+		result.put(k4, v4);
+		result.put(k5, v5);
+		return result;
+	}
+	
 	// Assert support ...
 	
 	public static void assertNotNull(final Object value, final String message) throws IllegalArgumentException {
@@ -91,6 +131,7 @@ public class Jahe {
 			throw new IllegalArgumentException(message);
 		}
 	}
+	
 	public static void assertFalse(final Boolean value, final String message) throws IllegalArgumentException {
 		if (value != Boolean.FALSE) {
 			throw new IllegalArgumentException(message);
