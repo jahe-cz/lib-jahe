@@ -10,14 +10,14 @@ import java.util.List;
  * @author Radek Pinc (pincr) {@literal <radek.pinc@softinel.cz>}
  */
 public class JavaListBeanFactory implements JaheBeanFactory {
-
+	
 	/** {@inheritDoc}
 	 * @see cz.jahe.context.bean.JaheBeanFactory#isSupported(java.lang.Class) */
 	@Override
 	public boolean isSupported(final Class<?> type) {
 		return List.class.equals(type);
 	}
-
+	
 	/** {@inheritDoc}
 	 * @see cz.jahe.context.bean.JaheBeanFactory#newBean(java.lang.Class) */
 	@Override
