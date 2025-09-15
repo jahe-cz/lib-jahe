@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 
+ * {@link JaheBeanFactory} for {@link List} implemented by {@link ArrayList}.
  * 
  * @author Radek Pinc (pincr) {@literal <radek.pinc@softinel.cz>}
  */
